@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOCTOR</title>
+  <link href="./style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="smartphone-screen">
+      <div class="screen-content">
+        <div class="header">
+          <h1 class="title">
+            <span id="home-i"><ion-icon name="arrow-back"></ion-icon></span>
+            View patient
+          </h1>
+        </div>
+        <div class="filter">
+          <!-- <a class="pill" href="#">Daily</a><a class="pill selected" href="#">Weekly</a><a class="pill" href="#">Monthly</a><a class="pill" href="#">Yearly</a> -->
+          <hr class="bar" />
+        </div>
+        <div class="content">
+          <div class="card card--main">
+
+            <div class="cm-left">
+              <h4 class="card-title">
+                S.Meena, F/23
+              </h4>
+              <span id="cm-p">Patient ID:87 202007227153457</span>
+            </div>
+            <div class="cm-right">
+              <span id="cm-icon"><ion-icon name="person-circle"></ion-icon></span>
+            </div>
+
+          </div>
+
+          <div class="card card-goal">
+            <h4 style="text-align: center;position: relative; top: -1rem;">
+              Goal reached
+            </h4>
+
+            <div class="card-goal-wrap">
+
+              <div class="cm2-left">
+
+                <!-- <div class="gauge">
+                    <div class="gauge__body">
+                      <div class="gauge__fill"></div>
+                      <div class="gauge__cover"></div>
+                    </div>
+                  </div> -->
+
+                <div role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="--value: 40">
+                </div>
+
+              </div>
+              <div class="cm2-right">
+
+                <div class="cm2-right-wrap">
+
+                  <div class="cm2-right-box">
+                    <span id="box-text">EMG</span>
+                    <div id="line-example-1">
+                      <table class="charts-css line hide-data">
+                        <caption> Line Example #1 </caption>
+                        <tbody>
+                          <tr>
+                            <td style="--start: 0.0; --end: 0.4;"><span class="data"> $ 40K </span></td>
+                          </tr>
+                          <tr>
+                            <td style="--start: 0.4; --end: 0.2;"><span class="data"> $ 20K </span></td>
+                          </tr>
+                          <tr>
+                            <td style="--start: 0.2; --end: 0.6;"><span class="data"> $ 60K </span></td>
+                          </tr>
+                          <tr>
+                            <td style="--start: 0.6; --end: 0.4;"><span class="data"> $ 40K </span></td>
+                          </tr>
+                          <tr>
+                            <td style="--start: 0.4; --end: 0.8;"><span class="data"> $ 80K </span></td>
+                          </tr>
+                          <tr>
+                            <td style="--start: 0.8; --end: 0.6;"><span class="data"> $ 60K </span></td>
+                          </tr>
+                          <tr>
+                            <td style="--start: 0.6; --end: 1.0;"><span class="data"> $ 100K </span></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+                  <div class="cm2-right-box">
+                    <span id="box-text">EMG</span>
+                    <div id="line-example-1">
+                      <table class="charts-css line hide-data">
+                        <caption> Line Example #1 </caption>
+                        <tbody>
+                          <tr>
+                            <td style="--start: 0.0; --end: 0.4;"><span class="data"> $ 40K </span></td>
+                          </tr>
+                          <tr>
+                            <td style="--start: 0.4; --end: 0.2;"><span class="data"> $ 20K </span></td>
+                          </tr>
+                          <tr>
+                            <td style="--start: 0.2; --end: 0.6;"><span class="data"> $ 60K </span></td>
+                          </tr>
+                          <tr>
+                            <td style="--start: 0.6; --end: 0.4;"><span class="data"> $ 40K </span></td>
+                          </tr>
+                          <tr>
+                            <td style="--start: 0.4; --end: 0.8;"><span class="data"> $ 80K </span></td>
+                          </tr>
+                          <tr>
+                            <td style="--start: 0.8; --end: 0.6;"><span class="data"> $ 60K </span></td>
+                          </tr>
+                          <tr>
+                            <td style="--start: 0.6; --end: 1.0;"><span class="data"> $ 100K </span></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+
+
+
+          <div class="card">
+
+            <div class="card-table">
+              <table>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <td>Phone no.</td>
+                  <td><ion-icon name="call"></ion-icon> 8022234455</td>
+                </tr>
+                <tr>
+                  <td>Mail ID</td>
+                  <td><ion-icon name="mail-outline"></ion-icon> meenaarabsinachin2@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Affected side</td>
+                  <td><ion-icon name="medical"></ion-icon> Billateral</td>
+                </tr>
+                <tr>
+                  <td>Condition</td>
+                  <td><ion-icon name="albums"></ion-icon> Ortho</td>
+                </tr>
+                <tr>
+                  <td>Speciality</td>
+                  <td><ion-icon name="medkit"></ion-icon> Osteoarthritis</td>
+                </tr>
+              </table>
+            </div>
+
+          </div>
+
+
+          <hr class="bar" />
+          <div class="finish">
+            <span><ion-icon name="document-attach-outline"></ion-icon> Mediacl History</span>
+            <span>Hypertension,DM,Hypothyrodism</span>
+          </div>
+        </div>
+
+
+
+        <div class="home">
+          <div class="home-wrapper">
+
+            <span id="home-i"><ion-icon name="chevron-back"></ion-icon></span>
+            <span id="home-i"><ion-icon name="radio-button-off"></ion-icon></span>
+            <span id="home-i"><ion-icon name="menu"></ion-icon></span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <hr class="bottom-bar" />
+
+    </div>
+
+  </div>
+
+  <script src="./script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
